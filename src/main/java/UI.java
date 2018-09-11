@@ -5,9 +5,9 @@ public class UI {
         double a,food,b;
         Scanner sc = new Scanner(System.in);
         System.out.print("How much your father give money to you? : ");
-          a = sc.nextDouble();
+        a = sc.nextDouble();
         System.out.print("How much you pay for food? : ");
-          food = sc.nextDouble();
+        food = sc.nextDouble();
 
         System.out.print("Your father give you ");
         System.out.println(account.income(a));
@@ -22,3 +22,5 @@ public class UI {
         //  account.income()
     }
 }
+
+
