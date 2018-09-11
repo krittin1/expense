@@ -23,7 +23,7 @@ public class Account {
             return balance;
         }
         else{
-            throw new IllegalArgumentException("Income must more than zero");
+            throw new IllegalArgumentException("income must more than zero");
         }
     }
 
