@@ -13,7 +13,7 @@ public class UI {
         System.out.println(account.income(a));
         System.out.print("buy food "+account.getMoney(food)+" baht your balance is ");
         System.out.println(account.expense(food));
-        System.out.print("How much your mother give money to you? : ");
+        System.out.print("How much your mother give money to you : ");
         a = sc.nextDouble();
         System.out.print("Your mother give you " +account.getMoney(a)+" baht balnce is "+account.income(a)+" baht");
         //System.out.println(account.income(50));

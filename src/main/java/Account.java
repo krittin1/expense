@@ -1,7 +1,5 @@
 //import static org.junit.jupiter.api.Assertions.assertEquals;
 //import org..jupiter.api.Test;
-
-
 public class Account {
     private double balance;
     private double money;
@@ -40,3 +38,4 @@ public class Account {
     }
 
 }
+
