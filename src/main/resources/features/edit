@@ -1,0 +1,14 @@
+Feature: Edit
+    As a user
+    I want to edit and view amount, date, category, description
+    so that I know how much money I have
+
+Scenario: Add to edit
+    Given my expense balance have -100 baht
+    When I add 100 to my expense
+    Then I can view my expense balance is -200 baht
+
+Scenario: Save edit
+    Given my expense balance have -200 baht
+    When I save edit my expense
+    Then   my expense balance change to -200 baht
